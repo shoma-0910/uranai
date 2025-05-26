@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-white text-gray-800;
-    min-height: 100vh;
-  }
-}
+
 
 @layer components {
   .admin-card {
