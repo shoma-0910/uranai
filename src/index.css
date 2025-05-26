@@ -4,15 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-white text-gray-800;
-    background-image: url('https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    @apply bg-white text-gray-800 bg-none; /* Tailwind で背景画像を無効化 */
     min-height: 100vh;
   }
 }
+
 
 @layer components {
   .admin-card {
